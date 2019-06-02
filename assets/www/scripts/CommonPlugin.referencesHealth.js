@@ -1,0 +1,2 @@
+﻿define("CommonPlugin.referencesHealth", [], function () {
+});

@@ -1,0 +1,19 @@
+﻿@keyframes blink {
+    0% { box-shadow: 0 0 15px #171717; }
+    50% { box-shadow: none; }
+    100% { box-shadow: 0 0 15px #171717; }
+}
+
+@-webkit-keyframes blink {
+    0% { box-shadow: 0 0 15px #171717; }
+    50% { box-shadow: 0 0 0; }
+    100% { box-shadow: 0 0 15px #171717; }
+}
+
+.blink {
+    -webkit-animation: blink 1.5s ease-out infinite;
+    -moz-animation: blink 1.5s ease-out infinite;
+    -ms-animation: blink 1.5s ease-out infinite;
+    -o-animation: blink 1.5s ease-out infinite;
+    animation: blink 1.5s ease-out infinite;
+}

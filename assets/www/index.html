@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+
+        
+        
+        <script type="text/javascript">
+            (function () {
+    function appendMetaTag(name, content) {
+        var e = document.createElement("meta");
+        e.setAttribute("name", name);
+        e.setAttribute("content", content);
+        document.head.appendChild(e);
+    }
+    var shouldShrink = false;
+    var shouldInjectViewport = false;
+    if (/(iPad)|(iPhone)/i.test(navigator.userAgent)) {
+        var version = navigator.appVersion.match(/OS (\d+)_(\d+)_?(\d+)?/);
+        shouldShrink = version && version[1] === "9";
+        shouldInjectViewport = version && version[1] === "11";
+    }
+    appendMetaTag("viewport", (shouldInjectViewport ? "viewport-fit=cover," : "") + "width=device-width,initial-scale=1,user-scalable=no, minimum-scale=1.0" + (shouldShrink ? ",shrink-to-fit=no" : ""));
+})();
+        </script>
+        <script type="text/javascript" src="scripts/OutSystemsManifestLoader.js?1WNGC5spPBbz3v49L1jW4g"></script>
+<script type="text/javascript" src="scripts/OutSystems.js?yMMkVndC_DwKF0E0QvkXsg"></script>
+<script type="text/javascript" src="scripts/OutSystemsReactView.js?ULuhtBpNOouw+fMJ8EGjcA"></script>
+<script type="text/javascript" src="scripts/cordova.js?7KqI9_oL9hClomz1RdzTqg"></script>
+<script type="text/javascript" src="scripts/Debugger.js?AadHRPcusSwWvnAe3_My0g"></script>
+<script type="text/javascript" src="scripts/PocketFestival.appDefinition.js?UcJbCdbEC3oaGzm46WgcMw"></script>
+<script type="text/javascript" src="scripts/OutSystemsReactWidgets.js?fkjyBYjRUWDodSMhVyrWaQ"></script>
+<link type="text/css" rel="stylesheet" href="css/_Basic.css?EqGzAe81QbZLXJyfY3oLwA"></link>
+
+        <script type="text/javascript">
+            OSManifestLoader.indexVersionToken = "KsoYb1foouJxQG_znVCjmg";
+
+        </script>
+        
+    </head>
+    <body>
+        <div id="reactContainer"></div>
+        <script type="text/javascript" src="scripts/PocketFestival.index.js?lCE_QAJ+zktPs6akhx8KWw"></script>
+
+    </body>
+</html>

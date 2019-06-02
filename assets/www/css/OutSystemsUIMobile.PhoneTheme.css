@@ -1,0 +1,51 @@
+﻿/* ===================================================================== */
+/*  OutSystems UI Mobile - Phone Theme                                   */
+/* ===================================================================== */
+
+/* Phone */
+.phone .form,
+.phone .card
+.phone-full-width {
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+/* Phone Landscape */
+.phone.landscape .bottom-bar-item-icon {
+    font-size: 16px;
+}
+
+.phone.landscape .login-logo img {
+    max-height: 100px;
+}
+
+.phone.landscape .app-menu-container {
+    -webkit-transform: translateX(-97%);
+            transform: translateX(-97vw);
+}
+
+/* Tablet  */
+.tablet .main-content,
+.tablet .bottom-bar {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.tablet .layout.blank .main-content {
+    max-width: 100%;
+}
+
+.tablet .app-menu-container {
+    
+            
+}
+
+.tablet .section-title, 
+.tablet .sticky-header {
+    max-width: 600px;
+}
+
+/* ExcludeFromPickers: animated-label-input, app-menu-container, blank, bottom-bar, bottom-bar-item-icon, form, landscape, layout, ListRecords, login-logo, main-content, phone, tablet */

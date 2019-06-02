@@ -1,0 +1,12 @@
+﻿
+html, 
+body,
+#reactContainer, 
+#reactContainer > div, 
+#reactContainer > div > div,
+.layout-blank,
+.layout-blank .content,
+.main-content {
+    height: 100%;
+    
+}
